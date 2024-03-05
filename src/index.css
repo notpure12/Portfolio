@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Light";
+    src: local("Promt-Light"),
+    url("./assets/font/Prompt-Light.ttf")  format("truetype");
+}
+@font-face {
+    font-family: "Regular";
+    src: local("Promt-Regular"),
+    url("./assets/font/Prompt-Regular.ttf")  format("truetype");
+}
+@font-face {
+    font-family: "Bold";
+    src: local("Promt-Bold"),
+    url("./assets/font/Prompt-Bold.ttf")  format("truetype");
+}
+@font-face {
+    font-family: "Medium";
+    src: local("Promt-Medium"),
+    url("./assets/font/Prompt-Medium.ttf")  format("truetype");
+}
+@font-face {
+    font-family: "Semibold";
+    src: local("Promt-SemiBold"),
+    url("./assets/font/Prompt-SemiBold.ttf")  format("truetype");
+}
