@@ -14,6 +14,12 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiNestjs } from "react-icons/si";
 import { SiVite } from "react-icons/si";
+import { pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
+import resume from "../assets/image/resume.pdf"
 
 function Landing() {
   return (
@@ -34,11 +40,11 @@ function Landing() {
             <p className="text-xs md:text-base md:text-2xl text-gray-500">
               Web Developer on a Mission!!
             </p>
-            <div className="pt-2">
+            <a className="flex pt-2" href={resume} download="resume">
               <button className="bg-black text-white hover:bg-white hover:text-black border border-black py-1 px-2 md:py-2 md:px-3 lg:py-2 lg:px-4 rounded ">
                 <p className="text-xs md:text-base lg:text-lg">My resume</p>
               </button>
-            </div>
+            </a>
           </div>
           {/*LEFT SIDE DIV END*/}
           {/*RIGHT SIDE DIV START*/}
