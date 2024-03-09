@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar{
+    width:0px;
+}
+
+
 @font-face {
     font-family: "Light";
     src: local("Promt-Light"),
