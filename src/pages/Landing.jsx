@@ -34,7 +34,7 @@ function Landing() {
             <p className="text-xs md:text-base md:text-2xl text-gray-500">
               Web Developer on a Mission!!
             </p>
-            <div className="absolute pt-2">
+            <div className="pt-2">
               <button className="bg-black text-white hover:bg-white hover:text-black border border-black py-1 px-2 md:py-2 md:px-3 lg:py-2 lg:px-4 rounded ">
                 <p className="text-xs md:text-base lg:text-lg">My resume</p>
               </button>
